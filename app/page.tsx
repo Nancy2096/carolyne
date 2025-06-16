@@ -1055,11 +1055,11 @@ export default function Home() {
               <div className="space-y-2">
                 <p className="flex items-center gap-2 text-muted-foreground">
                   <Phone className="h-4 w-4" />
-                  <span>+1 (555) 123-4567</span>
+                  <span>55 4497 0363</span>
                 </p>
                 <p className="flex items-center gap-2 text-muted-foreground">
                   <Mail className="h-4 w-4" />
-                  <span>contacto@carolynmartinez.com</span>
+                  <span>carolyn.martinez.chavez4@gmail.com</span>
                 </p>
                 <p className="flex items-center gap-2 text-muted-foreground">
                   <MapPin className="h-4 w-4" />
