@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Carolyn Martinez | Consultoría en Real Estate",
   description: "Consultoría especializada en estrategias comerciales para el sector inmobiliario",
   icons: {
-    icon: '/favicon.png', // o favicon.png
+    icon: '/logo-nuevo.png', // o favicon.png
   },
     generator: 'v0.dev'
 }

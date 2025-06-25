@@ -20,7 +20,7 @@ export default function Home() {
              {/* <span className="text-xl font-semibold text-[#1F3C88]">Carolyn Martinez</span>*/}
             <div className="relative h-[50px] w-[250px]">
               <Image
-                src="/logo3.png"
+                src="/logo-nuevo.png"
                 alt="Carolyn Martinez"
                 fill
                 style={{ objectFit: "contain" }}
@@ -1014,7 +1014,16 @@ export default function Home() {
           <div className="grid gap-8 md:grid-cols-3">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <span className="text-xl font-semibold text-[#1F3C88]">Carolyn Martinez</span>
+              <div className="relative h-[50px] w-[100px]">
+              <Image
+                src="/logo-footer.png"
+                alt="Carolyn Martinez"
+                fill
+                style={{ objectFit: "contain" }}
+                priority
+              />
+            </div>
+               
               </div>
               <p className="text-muted-foreground mb-4">
                 Consultoría especializada en estrategias comerciales para el sector inmobiliario.
