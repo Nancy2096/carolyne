@@ -826,7 +826,7 @@ export default function Home() {
                     </div>
                     <div>
                       <h3 className="font-medium">Email</h3>
-                      <p className="text-muted-foreground">carolyn.martinez.chavez4@gmail.com </p>
+                      <p className="text-muted-foreground">hablemos@consultoria-inmobiiaria.com </p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
@@ -1068,7 +1068,7 @@ export default function Home() {
                 </p>
                 <p className="flex items-center gap-2 text-muted-foreground">
                   <Mail className="h-4 w-4" />
-                  <span>carolyn.martinez.chavez4@gmail.com</span>
+                  <span>hablemos@consultoria-inmobiiaria.com</span>
                 </p>
                 <p className="flex items-center gap-2 text-muted-foreground">
                   <MapPin className="h-4 w-4" />
