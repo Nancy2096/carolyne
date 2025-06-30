@@ -1011,7 +1011,7 @@ export default function Home() {
 
       <footer className="bg-[#F5F5F7] py-12">
         <div className="container">
-          <div className="grid gap-8 md:grid-cols-3">
+          <div className="grid gap-4 md:grid-cols-4">
             <div>
               <div className="flex items-center gap-2 mb-4">
               <div className="relative h-[50px] w-[100px]">
@@ -1075,6 +1075,24 @@ export default function Home() {
                   <span>Ciudad de México, México</span>
                 </p>
               </div>
+              
+            </div>
+            <div>
+              <h3 className="font-medium mb-4">Partners</h3>
+              <div className="space-y-2">
+                <div className="relative h-[50px] w-[100px]">
+                <a href="https://agency4realestate.com/" target="_blank">
+                  <Image
+                    src="/A4R.svg"
+                    alt="Carolyn Martinez"
+                    fill
+                    style={{ objectFit: "contain" }}
+                    priority
+                  />
+                </a>
+                </div>
+              </div>
+              
             </div>
           </div>
           <div className="border-t border-border/40 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
