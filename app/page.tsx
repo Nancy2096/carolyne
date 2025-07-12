@@ -108,7 +108,7 @@ export default function Home() {
         </section>
 
         {/* About Section */}
-        <section id="about" className="py-20 bg-[#F5F5F7]">
+        <section id="about" className="py-20 bg-[#EAD3CF]/20">
           <div className="container">
             <div className="grid gap-8 md:grid-cols-2 items-center">
               <div className="relative h-[600px] w-full rounded-xl overflow-hidden shadow-xl">
@@ -340,7 +340,7 @@ export default function Home() {
         </section>
 
         {/* Methodology Section */}
-        <section id="methodology" className="py-20 bg-[#F5F5F7]">
+        <section id="methodology" className="py-20 bg-[#EAD3CF]/20">
           <div className="container">
             <div className="text-center space-y-4 mb-16">
               <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-[#1F3C88]">Metodología de Trabajo</h2>
@@ -573,8 +573,8 @@ export default function Home() {
               */}
             </div>
             <div className="mt-16 flex justify-center">
-              <div className="bg-[#F5F5F7] p-8 rounded-xl max-w-3xl">
-                <h3 className="text-2xl font-bold text-[#1F3C88] mb-4 text-center">
+              <div className="bg-[#1F3C88] p-8 rounded-xl max-w-3xl">
+                <h3 className="text-2xl font-bold text-white mb-4 text-center">
                   Credibilidad respaldada por los mejores
                 </h3>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center">
@@ -621,7 +621,7 @@ export default function Home() {
         </section>
 
         {/* Why Choose Section */}
-        <section className="py-20 bg-[#F5F5F7]">
+        <section className="py-20 bg-[#EAD3CF]/20">
           <div className="container">
             <div className="text-center space-y-4 mb-16">
               <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-[#1F3C88]">
@@ -986,13 +986,13 @@ export default function Home() {
         </section>
 
         {/* CTA Final */}
-        <section className="py-16 bg-[#1F3C88]">
+        <section className="py-16 bg-[url('/ciudad-background.jpg')] bg-cover bg-center bg-no-repeat">
           <div className="container text-center">
             <div className="max-w-3xl mx-auto space-y-6">
-              <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-white">
+              <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-white text-shadow">
                 Transforma tu negocio inmobiliario hoy
               </h2>
-              <p className="text-lg text-white/80">
+              <p className="text-lg font-semibold text-white">
                 Agenda una consultoría estratégica y descubre cómo potenciar tus resultados comerciales.
               </p>
               <div className="pt-4">
@@ -1002,21 +1002,21 @@ export default function Home() {
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Link>
                 </Button>
-                <p className="text-sm text-white/60 mt-4">Solo 3 consultorías disponibles esta semana</p>
+                <p className="text-sm text-white mt-4">Solo 3 consultorías disponibles esta semana</p>
               </div>
             </div>
           </div>
         </section>
       </main>
 
-      <footer className="bg-[#F5F5F7] py-12">
+      <footer className="bg-[#1F3C88] py-12">
         <div className="container">
           <div className="grid gap-4 md:grid-cols-4">
             <div>
               <div className="flex items-center gap-2 mb-4">
               <div className="relative h-[50px] w-[100px]">
               <Image
-                src="/logo-footer.png"
+                src="/logo-footer-blanco.png"
                 alt="Carolyn Martinez"
                 fill
                 style={{ objectFit: "contain" }}
@@ -1025,52 +1025,52 @@ export default function Home() {
             </div>
                
               </div>
-              <p className="text-muted-foreground mb-4">
+              <p className="text-white mb-4">
                 Consultoría especializada en estrategias comerciales para el sector inmobiliario.
               </p>
               <div className="flex gap-4">
-                <Link href="#" className="text-muted-foreground hover:text-[#1F3C88]">
+                <Link href="#" className="text-white hover:text-[#2c4cb0]">
                   <Linkedin className="h-5 w-5" />
                   <span className="sr-only">LinkedIn</span>
                 </Link>
-                <Link href="#" className="text-muted-foreground hover:text-[#1F3C88]">
+                <Link href="#" className="text-white hover:text-[#2c4cb0]">
                   <Instagram className="h-5 w-5" />
                   <span className="sr-only">Instagram</span>
                 </Link>
               </div>
             </div>
             <div>
-              <h3 className="font-medium mb-4">Enlaces rápidos</h3>
+              <h3 className="font-medium text-white mb-4">Enlaces rápidos</h3>
               <nav className="flex flex-col gap-2">
-                <Link href="#about" className="text-muted-foreground hover:text-[#1F3C88]">
+                <Link href="#about" className="text-white hover:text-[#2c4cb0]">
                   Sobre Mí
                 </Link>
-                <Link href="#services" className="text-muted-foreground hover:text-[#1F3C88]">
+                <Link href="#services" className="text-white hover:text-[#2c4cb0]">
                   Servicios
                 </Link>
-                <Link href="#methodology" className="text-muted-foreground hover:text-[#1F3C88]">
+                <Link href="#methodology" className="text-white hover:text-[#2c4cb0]">
                   Metodología
                 </Link>
-                <Link href="#success" className="text-muted-foreground hover:text-[#1F3C88]">
+                <Link href="#success" className="text-white hover:text-[#2c4cb0]">
                   Casos de Éxito
                 </Link>
-                <Link href="#contact" className="text-muted-foreground hover:text-[#1F3C88]">
+                <Link href="#contact" className="text-white hover:text-[#2c4cb0]">
                   Contacto
                 </Link>
               </nav>
             </div>
             <div>
-              <h3 className="font-medium mb-4">Contacto</h3>
+              <h3 className="font-medium text-white mb-4">Contacto</h3>
               <div className="space-y-2">
-                <p className="flex items-center gap-2 text-muted-foreground">
+                <p className="flex items-center gap-2 text-white">
                   <Phone className="h-4 w-4" />
                   <span>55 4497 0363</span>
                 </p>
-                <p className="flex items-center gap-2 text-muted-foreground">
+                <p className="flex items-center gap-2 text-white">
                   <Mail className="h-4 w-4" />
                   <span>hablemos@consultoria-inmobiiaria.com</span>
                 </p>
-                <p className="flex items-center gap-2 text-muted-foreground">
+                <p className="flex items-center gap-2 text-white">
                   <MapPin className="h-4 w-4" />
                   <span>Ciudad de México, México</span>
                 </p>
@@ -1078,12 +1078,12 @@ export default function Home() {
               
             </div>
             <div>
-              <h3 className="font-medium mb-4">Partners</h3>
+              <h3 className="font-medium text-white mb-4">Partners</h3>
               <div className="space-y-2">
                 <div className="relative h-[50px] w-[100px]">
                 <a href="https://agency4realestate.com/" target="_blank">
                   <Image
-                    src="/A4R.svg"
+                    src="/A4R.webp"
                     alt="Carolyn Martinez"
                     fill
                     style={{ objectFit: "contain" }}
@@ -1096,14 +1096,14 @@ export default function Home() {
             </div>
           </div>
           <div className="border-t border-border/40 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-            <p className="text-sm text-muted-foreground">
+            <p className="text-sm text-white">
               &copy; {new Date().getFullYear()} Carolyn Martinez. Todos los derechos reservados.
             </p>
             <div className="flex gap-4 mt-4 md:mt-0">
-              <Link href="#" className="text-sm text-muted-foreground hover:text-[#1F3C88]">
+              <Link href="#" className="text-sm text-white hover:text-[#2c4cb0]">
                 Política de Privacidad
               </Link>
-              <Link href="#" className="text-sm text-muted-foreground hover:text-[#1F3C88]">
+              <Link href="#" className="text-sm text-white hover:text-[#2c4cb0]">
                 Términos y Condiciones
               </Link>
             </div>
